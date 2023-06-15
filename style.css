@@ -1,0 +1,870 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+
+#one{
+    width: 100%;
+    height: 100vh;
+}
+
+#left{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 0vh;
+}
+
+#lphoto1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-renovation-maison-01-B.jpg);
+    background-size: cover;
+}
+
+#lp1overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #4b545185;
+}
+
+#lphoto2{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-conception-projet-renovation-01.jpg);
+    background-size: cover;
+}
+
+#lp2overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#e19e2157;
+}
+
+#right{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 0vh;
+    left: 50%;
+}
+
+#rphoto1{
+    width: 100%;
+    height: 25vh;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-conception-projet-renovation-02-B.jpg);
+    background-size: cover;
+}
+
+#rp1overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#e19e2157;
+}
+
+#rphoto1 #menu{
+    height: 6vh;
+    width: 6vh; 
+    font-size: 4vh;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: #fff;
+    z-index: 99;
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rphoto1 #r1{
+    font-size: 1.4vw;
+    color: #fff;
+    position: absolute;
+    top: 14%;
+    right: 3%;
+    font-family: DM Serif Display;
+    letter-spacing: 2px;
+}
+
+#rphoto1 #r2{
+    font-size: 1.4vw;
+    color: #fff;
+    position: absolute;
+    top: 19%;
+    right: 3%;
+    font-family: DM Serif Display;
+    letter-spacing: 2px;
+}
+
+#rphoto2{
+    width: 100%;
+    height: 75vh;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-renovation-maison-02.jpg);
+    background-size: cover;
+}
+
+#rp2overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #4b545185;
+}
+
+#middle{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 25vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#middle img #klr{
+    height: 1vh;
+}
+
+#two{
+    width: 100%;
+    height: 70vw;
+    background-color: #556a64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#two h2{
+    color: #fff;
+    text-align: center;
+    font-size: 8vh;
+    text-transform: uppercase;
+    font-family: DM Serif Display;
+    font-weight: 100;
+    padding-bottom: 15vh;
+}
+
+#video{
+    width: 80%;
+    height: 45vw;
+    position: absolute;
+    left: 10% ;
+    top: 105vw;
+    background-color: #fff;
+}
+
+
+video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0vh;
+    top: 0vw;
+    transform: scale(1.01, 1.01);
+}
+
+#three{
+    width: 100%;
+    height: 120vw;
+}
+
+#tphoto{
+    height: 50vw;
+    width: 35vw;
+    background-color: #cba55ab9;
+    position: relative;
+    top: 55vw;
+    left: 13vw;
+}
+
+#tpoverlay{
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    position: absolute;
+    left: 0%;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-Villefranche-demarche-de-travail.jpg);
+    background-size: cover;
+}
+
+#aphoto{
+    height: 25vw;
+    width: 25vw;
+    background-color: #cba55ab9;
+    position: relative;
+    top: -10vw;
+    left: 20vw;
+}
+
+#ttext{
+    height: 50vw;
+    width: 45vw;
+    position: relative;
+    top: 5vw;
+    left: 48vw;
+    padding: 4vw 4vw;
+}
+
+#ttext h1{
+    text-transform: uppercase;
+    font-family: DM Serif Display;
+    font-size: 3vw;
+}
+
+#ttext p{
+    font-family: DM Serif Display;
+    font-size: 1.5vw;
+    padding: 4vw 0;
+}
+
+#ttext img{
+    height: 3vw;
+    border: #aaa solid 2px;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+#ttext img:hover{
+    padding: 0.4vw;
+    color: rgb(101, 99, 99);
+    border: #cba55a solid 2px;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    cursor: pointer;
+}
+
+#four{
+    width: 100%;
+    height: 95vw;
+    background-color: #556a64;
+}
+
+#fphoto{
+    width: 57vw;
+    height: 32vw;
+    background-color: #cba55a;
+    position: relative;
+    top: 25vw;
+    left: 12vw;
+}
+
+#fpoverlay{
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-Villefranche-exemple-projet.jpg);
+    background-size: cover;
+}
+
+#faphoto{
+    height: 14vw;
+    width: 14vw;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-exemple-projet-materiaux-1.jpg);
+    background-size: cover;
+    position: relative;
+    top: -10vw;
+    left: 50vw;
+    z-index: 3;
+}
+
+#fbphoto{
+    height: 19vw;
+    width: 14vw;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-exemple-projet-materiaux-2.jpg);
+    background-size: cover;
+    position: relative;
+    top: -35vw;
+    left: 58vw;
+    z-index: 2;
+}
+
+#fcphoto{
+    height: 11vw;
+    width: 8vw;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-exemple-projet-materiaux-3.jpg);
+    background-size: cover;
+    position: relative;
+    top: -52vw;
+    left: 69vw;
+    z-index: 4;
+}
+
+#fphoto2{
+    height: 45vw;
+    width: 85vw;
+    position: relative;
+    top: 9vw;
+    left: 8vw;
+    overflow: hidden;
+}
+
+#fphoto2overlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/architecture-interieure-renovation-maison-Beaujolais.jpg);
+    background-size: cover;
+}
+
+#project{
+    height: 10vw;
+    width: 35vw;
+    position: relative;
+    top: -43vw;
+    left: 56vw;
+    word-spacing: -6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#project span{
+    font-size: 7vw;
+    font-family: DM Serif Display;
+    color: #fff;
+    z-index: 99;
+}
+
+#five{
+    width: 100%;
+    height: 240vw;
+    background-color: #fff;
+}
+
+#ftext1{
+    height: 17vw;
+    width: 52vw;
+    position: relative;
+    top: 35.5vw;
+    left: 8vw;
+    padding: 2vw 0vw ;
+    font-family: DM Serif Display;
+}
+
+#ftext1 h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#ftext1 strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#ftext1 p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+    padding-right: 1vw;
+}
+
+#f2{
+    height: 55vw;
+    width: 83vw;
+    position: relative;
+    top: 30vw;
+    left: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f2left{
+    height: 100%;
+    width: 57%;
+    text-align: right;
+}
+
+#f2left1{
+    height: 50%;
+    width: 100%;
+    padding-top: 13vw;
+    padding-left: 12vw;
+}
+
+#f2left1 h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f2left1 strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f2left1 p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+}
+
+#f2left2{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#f2left2overlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/amenagement-maison-neuve-Villefranche.jpg);
+    background-size: cover;
+}
+
+#f2right{
+    height: 100%;
+    width: 37%;
+}
+
+#f2right1{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(56, 32, 32);
+    overflow: hidden;
+}
+
+#f2right1overlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/amenagement-entree-graphique-appartement-paris-05.jpg);
+    background-size: cover;
+}
+
+#f2right2{
+    height: 35%;
+    width: 100%;
+    padding-top: 3vw;
+    padding-right: 2vw;
+}
+
+#f2right2 h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f2right2 strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f2right2 p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+}
+
+#f3{
+    height: 60vw;
+    width: 85vw;
+    position: relative;
+    top: 42vw;
+    left: 8vw;
+}
+
+#f3photo{
+    height: 45vw;
+    width: 85vw;
+    overflow: hidden;
+}
+
+#f3photooverlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/architecture-interieure-amenagement-maison-paris.jpg);
+    background-size: cover;
+}
+
+#f3text{
+    height: 15vw;
+    width: 100%;
+}
+
+#f3text h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    padding-top: 2vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f3text strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f3text p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+    padding-right: 45vw;
+}
+
+
+#f4{
+    height: 55vw;
+    width: 83vw;
+    position: relative;
+    top: 40vw;
+    left: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f4left{
+    height: 100%;
+    width: 57%;
+    text-align: right;
+}
+
+#f4left1{
+    height: 50%;
+    width: 100%;
+    padding-top: 15vw;
+    padding-left: 16vw;
+}
+
+#f4left1 h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f4left1 strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f4left1 p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+}
+
+#f4left2{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#f4left2overlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/projets-architectures-interieure-lyon-2.jpg);
+    background-size: cover;
+}
+
+#f4right{
+    height: 100%;
+    width: 37%;
+}
+
+#f4right1{
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#f4right1overlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.klr-interieur.com/Images/projets/architecture-interieure-extension-maison-bureau-beaujolais.jpg);
+    background-size: cover;
+}
+
+#f4right2{
+    height: 35%;
+    width: 100%;
+    padding-top: 3vw;
+    padding-right: 2vw;
+}
+
+#f4right2 h1{
+    text-transform: uppercase;
+    padding-bottom: 0.4vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f4right2 strong{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#f4right2 p{
+    color: rgba(0, 0, 0, 0.741);
+    padding-top: 1vw;
+}
+
+#six{
+    height: 55vw;
+    width: 100%;
+    background-color: #556a64;
+}
+
+#six h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: DM Serif Display;
+    font-size: 3.5vw;
+    font-weight: 100;
+    position: relative;
+    left: 32% ;
+    top: 40%;
+}
+
+#svideo{
+    width: 80%;
+    height: 45vw;
+    position: relative;
+    left: 10% ;
+    top: 35vw;
+    background-color: #000;
+}
+
+#seven{
+    width: 100%;
+    height: 110vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#sone{
+    height: 46vw;
+    width: 80%;
+    position: relative;
+    top: 50vw;
+    display: flex;
+}
+
+#sright{
+    height: 100%;
+    width: 40%;
+}
+
+#srightp{
+    height: 100%;
+    width: 100%;
+    background-color: #cba55ab9;
+}
+
+#srightpoverlay{
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background-image: url(https://www.klr-interieur.com/Images/KLR-architecte-interieur-Lyon-Villefranche-Claire-Augoyat.jpg);
+    background-size: cover;
+}
+
+#sleft{
+    height: 100%;
+    width: 60%;
+    padding: 1vw 5vw;
+}
+
+#sleft h1{
+    text-transform: uppercase;
+    font-family: DM Serif Display;
+    font-size: 3vw;
+}
+
+#sleft p{
+    font-family: DM Serif Display;
+    font-size: 1.3vw;
+    padding: 4vw 0;
+}
+
+#sleft img{
+    height: 3vw;
+    border: #aaa solid 2px;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+#sleft img:hover{
+    padding: 0.4vw;
+    color: rgb(101, 99, 99);
+    border: #cba55a solid 2px;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    cursor: pointer;
+}
+
+#eight{
+    width: 100%;
+    height: 45vw;
+    background-color: #556a64;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end
+}
+
+#e1{
+    height: 20vw;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#e1 h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 2vw;
+}
+
+#e1 img{
+    height: 3.5vw;
+    border: #aaa solid 1px;
+    border-radius: 50%;
+}
+
+#e2{
+    height: 16vw;
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3vw;
+
+}
+
+#e2l{
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#e2r{
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#e2 span{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: DM Serif Display;
+    font-size: 2.5vw;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+#e2r span:hover{
+    color: #cba55a;
+    cursor: pointer;
+    padding-left: 1.5vw;
+}
+
+#e2l span:hover{
+    color: #cba55a;
+    cursor: pointer;
+    padding-right: 1.5vw;
+}
+
+#nine{
+    width: 100%;
+    height: 13vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: DM Serif Display;
+}
+
+#nl{
+    height:100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 3vw;
+}
+
+#nl img{
+    height: 6.5vw;
+}
+
+#nl2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5vw;
+}
+
+#nl2 h1{
+    color: #556a64;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    padding-bottom: 1vw;
+}
+
+#nl2 h1::after{
+    content: "";
+    width: 13vw;
+    height: 0.1vw;
+    position: absolute;
+    bottom: 8.1vw;
+    left: 12.5vw;
+    background-color: #cba55a;
+}
+
+#nl2 span{
+    color: #556a64;
+    font-size: 0.9vw;
+}
+
+#nl2 span:hover{
+    color: #cba55a;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+#nl2 p{
+    color: #556a64;
+    font-size: 0.9vw;
+}
+
+#nr{
+    height:100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons{
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6vw;
+    color: #556a64;
+}
+
+#icons i{
+    font-size: 1.5vw;
+    border: #eee solid 0.15vw;
+    border-radius: 50%;
+    margin-bottom: 0.5vw;
+    padding: 0.4vw;
+}
+
+#icons i:hover{
+    font-size: 1.4vw;
+    border: #cba55a solid 0.15vw;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+#nr h1{
+    color: #556a64;
+    font-size: 0.9vw;
+}
